@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rsponsive Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="big-wrapper light">
+        <img src="shape.png" alt="" class="shape" />
+
+        <header>
+          <div class="container">
+            <div class="logo">
+              <img src="slogo.png" alt="Logo" />
+              <h3>Welcome!</h3>
+            </div>
+
+            <div class="links">
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#" class="btn">Sign up</a></li>
+              </ul>
+            </div>
+
+            <div class="overlay"></div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </header>
+
+        <div class="showcase-area">
+          <div class="container">
+            <div class="left">
+              <div class="big-title">
+                <h1>This is a,</h1>
+                <h1>Landing Page</h1>
+              </div>
+              <div class="mybox"> 
+                <div> 
+                  A responsive landing page is a web page designed 
+                  to be the entry point for visitors to a website, 
+                    <span class="mybox1" id="mybox1id"> 
+                      specifically created to capture the visitor's attention and encourage them to take a specific action, such as signing up for a newsletter, downloading a resource, or making a purchase.
+                      The "responsive" aspect means that the page is designed to work well on a variety of devices and screen sizes, including desktops, tablets, and smartphones.
+                      This is achieved through the use of flexible layouts, media queries, and other responsive web design techniques.
+                    </span> 
+                </div> 
+                <button id="mybuttonid" 
+                        onclick="changeReadMore()"> 
+                    Read More 
+                </button> 
+            </div> 
+            </div>
+
+            <div class="right">
+              <img src="bg.jpeg" alt="Person Image" class="person" />
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-area">
+          <div class="container">
+            <button class="toggle-btn">
+              <i class="far fa-moon"></i>
+              <i class="far fa-sun"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- JavaScript Files -->
+
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
